@@ -7,6 +7,7 @@ dotenv.config();
 
 const authRoutes = require('./routes/authRoutes');
 const registrationRoutes = require('./routes/registrationRoutes'); 
+const opportunityRoutes = require('./routes/opportunityRoutes');
 
 const app = express();
 app.use(cors());
@@ -20,6 +21,7 @@ mongoose
 
 app.use('/api/auth', authRoutes);
 app.use('/api/registrations', registrationRoutes); 
+app.use('/api/opportunities', opportunityRoutes);
 
 app.get('/', (req, res) => {
   res.send('VolCom API running');
