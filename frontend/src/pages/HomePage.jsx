@@ -7,8 +7,7 @@ export default function HomePage() {
         Welcome to <span className="hero-highlight">VolCom</span>
       </h1>
       <p className="hero-tagline">
-        Voluntary Community – connecting volunteers with local opportunities,
-        events, and organizations that need your help.
+        Connecting volunteers with meaningful community opportunities.
       </p>
 
       <div className="hero-actions">
